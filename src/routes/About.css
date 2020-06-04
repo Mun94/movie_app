@@ -1,0 +1,20 @@
+.about__container{
+    color:wheat;
+    padding:20px;
+    border-radius: 5px;
+    margin : 0 auto;
+    background-color: #0c002b;;
+    margin-top:100px;
+    max-width:25%;
+    font-weight: 300;
+    box-shadow: 0 20px 50px rgba(0,0,0,0.5);
+}
+
+.about__container span:first-child{
+    font-size: 20px;
+}
+
+.about__container span:last-child{
+    display: block;
+    margin-top:10px
+}
