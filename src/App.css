@@ -9,10 +9,22 @@ body{
     background-color: #0c002b;
 }
 
-html, #root, .loader{
+html,body, #root,.loader, .container{
     display: flex;
     height: 100%;
     justify-content: center;
+}
+
+.movies{
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-start;
+    flex-wrap: wrap;
+    padding:50px;
+    padding-top: 70px;
+}
+
+.loader{
     align-items: center;
 }
 
