@@ -2,15 +2,20 @@
     width: 45%;
     background-color: #f5deb3;
     margin-bottom: 70px;
-    display : flex;
     flex-wrap: wrap;
-    justify-content: space-between;
-    align-items: flex-start;
     font-weight: bolder;
     padding :20px;
     border-radius: 5px;
     color : gray;
     box-shadow: 10px 10px 5px 0px rgba(105,105,105,1);
+}
+
+.movies .movie a{
+  display : flex;
+  align-items: flex-start;
+  justify-content: space-between;
+  text-decoration: none;
+  color:inherit;
 }
 
 .movie img{
